@@ -11,7 +11,7 @@ def find_min_value(array)
 end
 
 
-def find_element_index(array, value_to_find)
+#  find_element_index(array, value_to_find)
   array.length.times do |count|
     if array[count] == value_to_find
       return count
@@ -30,16 +30,16 @@ def find_max_value(array)
   max
 end
 
-def find_min_value(array)
-  min = 0
-    array.length.times do |count|
-      if count == 0
-        min = array[count]
-      else
-        if array[count] < min
-          min = array[count]
-        end
-      end
+# def find_min_value(array)
+ # min = 0
+    #array.length.times do |count|
+    #  if count == 0
+      #   min = array[count]
+      # else
+      #   if array[count] < min
+      #     min = array[count]
+      #   end
+      # end
     end
   min
-end
+ # end  
